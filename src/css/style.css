@@ -4,4 +4,11 @@
     border: 1px solid black;
     padding: 10px; }
 
+#task-2 {
+  border-collapse: collapse;
+  margin: 20px 0; }
+  #task-2 td {
+    border: 3px dashed lightblue;
+    padding: 8px; }
+
 /*# sourceMappingURL=style.css.map */
