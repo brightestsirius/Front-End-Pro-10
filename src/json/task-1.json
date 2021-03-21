@@ -1,0 +1,5 @@
+{
+	"name": "Pokemon",
+	"image": "pokemon_task-1.svg",
+	"friends": ["Jack","Jason","Oleg"]
+}
