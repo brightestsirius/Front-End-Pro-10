@@ -1,17 +1,13 @@
 import {heroesWrapper} from './script.js'
 
-let cat = {
-	name: 'cat'
-}
-
 class Hero{
-	constructor(file){
-		this.file = file;
+	constructor(tableId){
+		this.tableId = tableId;
 		this.getInfo();
 	}
 
 	async getInfo(){
-		let response = await fetch(`./json/${this.file}`),
+		let response = await fetch(`./json/${this.tableId}.json`),
 			data = await response.json();
 
 		this.setInfo(data);
@@ -29,7 +25,7 @@ class Hero{
 		//console.log(this);
 
 		let table = document.createElement('table');
-		table.id = 'task-1';
+		table.id = this.tableId;
 
 		let tr = document.createElement('tr');
 
@@ -79,4 +75,4 @@ class Hero{
 	}
 }
 
-export let Pokemon = new Hero('task-1.json'); // {}
+export let Zeus = new Hero('task-2'); // {}
