@@ -18,4 +18,11 @@
     background: lightgray;
     border: 1px solid gray; }
 
+#task-13 {
+    border-collapse: collapse;
+    margin: 20px 0 }
+    #task-13 td{
+      border: 3px dashed lightblue;
+      padding: 8px; }
+
 /*# sourceMappingURL=style.css.map */
