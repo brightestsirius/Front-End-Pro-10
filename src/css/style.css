@@ -1,28 +1,50 @@
 #task-1 {
-  border-collapse: collapse; }
-  #task-1 td {
-    border: 1px solid black;
-    padding: 10px; }
+  border-collapse: collapse;
+}
+
+#task-1 td {
+  border: 1px solid black;
+  padding: 10px;
+}
 
 #task-2 {
   border-collapse: collapse;
-  margin: 20px 0; }
-  #task-2 td {
-    border: 3px dashed lightblue;
-    padding: 8px; }
+  margin: 20px 0;
+}
+
+#task-2 td {
+  border: 3px dashed lightblue;
+  padding: 8px;
+}
 
 #task-3 {
-  margin: 20px 0; }
-  #task-3 td {
-    padding: 15px;
-    background: lightgray;
-    border: 1px solid gray; }
+  margin: 20px 0;
+}
+
+#task-3 td {
+  padding: 15px;
+  background: lightgray;
+  border: 1px solid gray;
+}
 
 #task-13 {
-    border-collapse: collapse;
-    margin: 20px 0 }
-    #task-13 td{
-      border: 3px dashed lightblue;
-      padding: 8px; }
+  border-collapse: collapse;
+  margin: 20px 0;
+}
 
+#task-13 td {
+  border: 3px dashed lightblue;
+  padding: 8px;
+}
+
+#task-13 {
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+#task-13 td {
+  border: 5px solid yellow;
+  border-background: green;
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
