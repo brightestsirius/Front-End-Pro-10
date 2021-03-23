@@ -37,14 +37,14 @@
   padding: 8px;
 }
 
-#task-13 {
+#task-7 {
   border-collapse: collapse;
   margin: 20px 0;
 }
 
-#task-13 td {
-  border: 5px solid yellow;
-  border-background: green;
+#task-7 td {
+  border: 3px solid black;
+  background: rgb(149, 212, 149);
   padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
