@@ -1,0 +1,76 @@
+#task-6{
+	z-index: 2;
+	position: relative;
+	font-family: montserrat, sans-serif, system-ui;
+	display: grid;
+	width: 220px;
+	grid-template-rows: 24px 1fr 44px;
+	gap: 16px;
+	background-color: #1e2327;
+	color: white;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 16px;
+	text-align: center;
+}
+
+.cyborg{
+	&-avatar{
+		width: 100%;
+	border-radius: 12px;
+	}
+
+	&-btn{
+		font-family: montserrat, sans-serif, system-ui;
+		font-weight: 500;
+		border-radius: 6px;
+		border: 1px solid white;
+		cursor: pointer;
+		background-color: unset;
+		color: white;
+		transition: 0.5s;
+
+		&:hover{
+			transition: 0.5s;
+			color: black;
+			background-color: #c8d7e4;
+			border: none;
+		}
+		&:focus{
+			outline: none;
+		}
+		&:active{
+			transition: 0.2s;
+			transform: scale(0.95);
+			opacity: 0.8;
+		}
+	}
+
+	&-details{
+		z-index: 1;
+		font-family: monospace;
+		position: absolute;
+		overflow: hidden;
+		top: 8px;
+		left: 0;
+		width: 300px;
+		display: none;
+		grid-template-rows: auto;
+		gap: 6px;
+		background-color: #262d33;
+		border-radius: 0 12px 12px 0;
+		padding: 16px;
+		text-align: left;   
+
+		&__subtitle{
+			font-size: 10px;
+			color: gainsboro;
+		}
+
+		&__show{
+			height: 328px;
+			left: 252px;
+			display: grid;
+		}
+	}
+}

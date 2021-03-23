@@ -1,0 +1,11 @@
+{
+	"name": "Cyborg",
+	"image": "cyborg.jpg",
+	"details": {
+        "name": "Victor Stone",
+        "nationality": "American",
+        "gender": "male",
+        "birthdate": "June 29, 1994",
+		"about":"Victor Stone is a former college athlete and football star. Following a horrific accident that resulted in the death of his mother, Victor was gravely injured and was extremely close to death. His father, Silas Stone, was able to save him via the use of a Mother Box that crafted cybernetics onto him, managing to save his life but leaving him alienated and detached from the rest of humanity due to complications with his new form."
+    }
+}
