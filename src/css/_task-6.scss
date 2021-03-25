@@ -1,7 +1,7 @@
 #task-6{
 	z-index: 2;
 	position: relative;
-	font-family: montserrat, sans-serif, system-ui;
+	font-family: 'montserrat', sans-serif, 'system-ui';
 	display: grid;
 	width: 220px;
 	grid-template-rows: 24px 1fr 44px;
@@ -21,7 +21,7 @@
 	}
 
 	&-btn{
-		font-family: montserrat, sans-serif, system-ui;
+		font-family: 'montserrat', sans-serif, 'system-ui';
 		font-weight: 500;
 		border-radius: 6px;
 		border: 1px solid white;
