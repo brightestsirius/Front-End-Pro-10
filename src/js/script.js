@@ -6,6 +6,7 @@ import {Ivanka} from './task-3.js';
 import {Batman} from './task-13.js';
 import {Goose} from './task-7.js';
 import {Cyborg} from './task-6.js';
+import {Messi} from './task-5.js';
 
 // import * as exampleData from './exampleModule.js';
 // import {userName} from './exampleModule.js';
@@ -19,6 +20,7 @@ console.log(Zeus);
 console.log(Ivanka);
 console.log(Batman);
 console.log(Goose)
+console.log(Messi);
 
 Ivanka.renderInfo();
 
