@@ -144,7 +144,6 @@
   padding: 10px;
 }
 
-<<<<<<< HEAD
 #task-11 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,7 +244,6 @@
   text-align: center;
   margin-bottom: 20px;
   line-height: 30px;
-=======
 @font-face {
   font-family: 'Chango', cursive;
 }
@@ -284,6 +282,5 @@
 #task-8 button:hover {
   -webkit-box-shadow: 0 0 10px 0 #cfbc11 inset, 0 0 10px 4px #3498db;
           box-shadow: 0 0 10px 0 #cfbc11 inset, 0 0 10px 4px #3498db;
->>>>>>> 7a4a49baee3c6df84dc5baa206b0816c896a51f0
 }
 /*# sourceMappingURL=style.css.map */
