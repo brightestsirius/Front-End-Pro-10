@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
 #task-1 {
   border-collapse: collapse;
 }
@@ -143,6 +144,7 @@
   padding: 10px;
 }
 
+<<<<<<< HEAD
 #task-11 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,5 +245,45 @@
   text-align: center;
   margin-bottom: 20px;
   line-height: 30px;
+=======
+@font-face {
+  font-family: 'Chango', cursive;
+}
+
+#task-8 table {
+  border-collapse: collapse;
+  display: block;
+  border-radius: 5px;
+}
+
+#task-8 td {
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-family: 'Chango', cursive;
+  padding: 10px;
+  margin: 20px;
+}
+
+#task-8 tr {
+  border-radius: 10px;
+  background-color: #68b85f;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+#task-8 button {
+  font-family: 'Chango', cursive;
+  border-color: #7a8a7d;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 40px 40px #34db8d inset, 0 0 0 0 #3498db;
+          box-shadow: 0 0 40px 40px #34db8d inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+#task-8 button:hover {
+  -webkit-box-shadow: 0 0 10px 0 #cfbc11 inset, 0 0 10px 4px #3498db;
+          box-shadow: 0 0 10px 0 #cfbc11 inset, 0 0 10px 4px #3498db;
+>>>>>>> 7a4a49baee3c6df84dc5baa206b0816c896a51f0
 }
 /*# sourceMappingURL=style.css.map */
