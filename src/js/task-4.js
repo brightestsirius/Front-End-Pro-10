@@ -1,4 +1,4 @@
-const heroesWrapper = document.querySelector('#heroes__wrapper')
+import { heroesWrapper } from './script.js'
 
 class Hero {
   constructor() {
@@ -58,4 +58,4 @@ class Hero {
     Актор Бредлі Купер`)
   }
 }
-let Rocket = new Hero()
+export let Rocket = new Hero()
