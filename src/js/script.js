@@ -22,6 +22,7 @@ console.log(Zeus);
 console.log(Ivanka);
 console.log(Batman);
 console.log(Goose);
+console.log(Rocket);
 
 Ivanka.renderInfo();
 
