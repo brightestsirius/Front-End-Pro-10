@@ -1,0 +1,9 @@
+{
+  "name": "Rocket",
+  "image": "rocket.svg",
+  "friends": [
+    "Groot",
+    "Star Lord",
+    "Gamora"
+  ]
+}
