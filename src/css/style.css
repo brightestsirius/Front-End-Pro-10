@@ -245,4 +245,27 @@
   padding: 8px;
 }
 
-/*# sourceMappingURL=style.css.map */
+#task-5 {
+  border-collapse: collapse;
+  margin: 20px;
+  background-color: #A50044;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #EDBB00;
+}
+
+#task-5 td {
+  border: 3px solid #00305f;
+  padding: 15px;
+}
+
+#task-5 td img {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 70px;
+}
+
+#task-5 .add__rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
