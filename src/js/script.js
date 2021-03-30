@@ -9,6 +9,7 @@ import { Goose } from './task-7.js';
 import { Cyborg } from './task-6.js';
 import { Minion } from './task-11.js';
 import { Panda } from './task-8.js';
+import { Winnie } from './task-10.js';
 
 // import * as exampleData from './exampleModule.js';
 // import {userName} from './exampleModule.js';
