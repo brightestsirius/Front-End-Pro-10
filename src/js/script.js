@@ -1,9 +1,11 @@
 export const heroesWrapper = document.querySelector('#heroes__wrapper');
 
+
 import { Pokemon } from './task-1.js';
 import { Zeus } from './task-2.js';
 import { Ivanka } from './task-3.js';
 import { Rocket } from './task-4.js';
+import { Messi } from './task-5.js';
 import { Batman } from './task-13.js';
 import { Goose } from './task-7.js';
 import { Cyborg } from './task-6.js';
@@ -22,6 +24,7 @@ console.log(Zeus);
 console.log(Ivanka);
 console.log(Batman);
 console.log(Goose);
+console.log(Messi);
 console.log(Rocket);
 
 Ivanka.renderInfo();
