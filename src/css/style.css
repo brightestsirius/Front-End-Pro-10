@@ -269,3 +269,18 @@
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
+
+#task-14 {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+#task-14 td {
+  padding: 10px;
+  border: 7px dashed rgba(30,164,134,0.64);
+}
+
+#task-14 td img {
+  height: 100px;
+  width: 100px;
+}
