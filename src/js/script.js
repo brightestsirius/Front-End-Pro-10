@@ -12,6 +12,7 @@ import { Cyborg } from './task-6.js';
 import { Minion } from './task-11.js';
 import { Panda } from './task-8.js';
 import { Winnie } from './task-10.js';
+import { Hat } from './task-14.js';
 
 // import * as exampleData from './exampleModule.js';
 // import {userName} from './exampleModule.js';
